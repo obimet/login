@@ -1,0 +1,17 @@
+<?php
+
+echo '<H2>Login area</H2><BR><BR>';
+
+$this->form->prepare();
+
+echo $this->form()->opentag($form);
+echo $this->formlabel($form->get('username'));
+echo $this->formelement($form->get('username'));
+echo '<BR>';
+echo $this->formlabel($form->get('password'));
+echo $this->formelement($form->get('password'));
+echo '<BR>';
+echo $this->formelement($form->get('submit'));
+echo $this->form()->closeTag($this->form);
+
+?>
