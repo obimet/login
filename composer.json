@@ -10,6 +10,11 @@
     "require": {
         "php": ">=5.3.0"
     },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/obimet/login"
+        },
     "autoload": {
         "psr-0": {
             "Feyder": ""
