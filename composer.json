@@ -1,5 +1,5 @@
 {
-    "name": "obimet/testlogin",
+    "name": "obimet/tool_console",
     "authors": [
         {
             "name": "Wadim Feyder",
@@ -13,8 +13,9 @@
     "repositories":[
         {
             "type":"git",
-            "url":"http://github.com/obimet/login"
+            "url":"http://github.com/obimet/tool_console"
         },
+    ],
     "autoload": {
         "psr-0": {
             "Feyder": ""
